@@ -1,8 +1,10 @@
 # ChatBot
 AI Chatbot with Rule-Based Responses
 Welcome to the AI Chatbot with Rule-Based Responses repository! This project is designed to demonstrate a simple chatbot that responds to user inputs based on predefined rules. By utilizing if-else statements and pattern matching techniques, the chatbot can effectively identify user queries and provide appropriate responses. This project serves as a valuable introduction to natural language processing (NLP) and conversation flow, implemented using HTML, CSS, and JavaScript.
--> This will work on some conditions.
-function simpleChatbot(userMessage) {
+
+
+## -> This will work on some conditions.
+## function simpleChatbot(userMessage) {
         // Pattern matching to identify greetings and questions
         if (/hello|hi|hey/i.test(userMessage)) {
             return "Hello! How can I assist you?";
